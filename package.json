@@ -1,15 +1,15 @@
 {
-  "name": "timetest",
+  "name": "thanhtruong2311timedtu",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "dist/bundle.min.js",
+  "description": "Thư viện lấy ngày giờ hiện tại",
   "scripts": {
-    "build": "browserify src/main.js -o dist/bundle.min.js -t [ babelify --presets [ @babel/preset-env ] ]",
+    "build": "browserify src/main.js -o dist/timedtu.min.js -t [ babelify --presets [ @babel/preset-env ] ]",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "keywords": ["date", "time", "js", "library"],
+  "author": "Truongpyeo",
+  "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.26.0",
     "@babel/preset-env": "^7.26.0",
